@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iveralda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cesedbr.iveralda.Iveralda"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Amor de Carioca"
+        android:layout_width="324dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="133dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/velha"
+        android:id="@+id/imageView"
+        android:layout_weight="0.33" />
+
+    <TextView
+        android:text="Pegou a Veia"
+        android:layout_width="350dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="100"
+        android:layout_width="323dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:id="@+id/txt_peguei"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Vezes"
+        android:layout_width="345dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:id="@+id/textView4"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Peguei"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/btn_peguei"
+        android:textSize="24sp" />
+</LinearLayout>
